@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(155, 155, 148);
+    color: white;
+    box-sizing: border-box;
+    
+}
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    
+}
+
+.container-navbar {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(88, 87, 85);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top:15px;
+    left: 15px;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.menubar {
+    background-color: yellowgreen;
+    width: calc('100%-120px');
+    position: relative;
+    z-index: 1;
+}
+
+.menubar ul {
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.menubar li {
+    display: inline;
+    background-color: slateblue;
+    padding: 15px 30px;
+}
+
+#call-btn {
+    background-color: green;
+}
+
+.image-heropage {
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/banner-home2.jpg');
+    position: relative;
+    
+}
+
+.text-heropage {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
